@@ -1,0 +1,21 @@
+header {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 10fr;
+    font-size: xx-large;
+    text-align: center;
+    background-image: url('./img/Bakgrund\ rubrik\ recept.png');
+
+}
+
+h1 {
+    font-family: "Shojumaru", sans-serif;
+    font-weight: 400;
+    color: white
+}
+
+
+
+.img-logo {
+    height: 25%;
+}
