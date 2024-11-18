@@ -5,7 +5,13 @@ header {
     font-size: xx-large;
     text-align: center;
     background-image: url('./img/Bakgrund\ rubrik\ recept.png');
+    background-size: cover;
+}
 
+main {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 3fr 5fr 2fr;
 }
 
 h1 {
@@ -14,8 +20,41 @@ h1 {
     color: white
 }
 
+h2 {
+    font-family: "Victor Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    font-size: xx-large;
+  }
+  h3{
+    font-family: "Victor Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    font-size: large;
+  }
+  
 
+.Recept-bakgrund-klass{
+    border-radius: 5%;
+    margin-top: 2.5%;
+    height: fit-content;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-recept{
+    width: 95%;
+    border-radius: 7.5%;
+    
+}
 
 .img-logo {
     height: 25%;
+    
 }
