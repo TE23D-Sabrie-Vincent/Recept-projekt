@@ -20,41 +20,69 @@ h1 {
     color: white
 }
 
-h2 {
+.Wok-Victor-mono {
     font-family: "Victor Mono", monospace;
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
     text-align: center;
     font-size: xx-large;
-  }
-  h3{
+}
+
+.wok-beskrivning {
     font-family: "Victor Mono", monospace;
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
     text-align: center;
     font-size: large;
-  }
-  
+}
 
-.Recept-bakgrund-klass{
-    border-radius: 5%;
+
+
+
+.Recept-bakgrund-klass {
+    border-radius: 35px;
     margin-top: 2.5%;
     height: fit-content;
-    background-color: orange;
+    background-color: #f4d309;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.img-recept{
+.steg-1-2-3-rubrik {
+    font-size: x-large;
+    text-align: center;
+
+
+
+}
+
+.steg-1-2-3 {
+    background-color: #ffa107;
+    height: fit-content;
+    border-radius: 35px;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    font-size: larger;
+}
+
+.img-recept {
     width: 95%;
     border-radius: 7.5%;
-    
+
 }
 
 .img-logo {
     height: 25%;
-    
+    margin-top: 7.5%;
+    margin-left: 7.5%;
+}
+
+.img-logo-socialmedia {
+    height: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin: auto; */
 }
