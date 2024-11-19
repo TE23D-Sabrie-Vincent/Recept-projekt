@@ -36,6 +36,7 @@ h1 {
     font-style: normal;
     text-align: center;
     font-size: large;
+    
 }
 
 
@@ -67,6 +68,19 @@ h1 {
     margin-left: 2.5%;
     font-size: larger;
 }
+
+/* .steg-1-2-3-rubrikv2{
+    background-color: #ffa107;
+    height: fit-content;
+    border-radius: 35px;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    font-size: larger;
+    text-align: center;
+    grid-column: 1/3;
+    grid-row: 2/3;
+
+} */
 
 .img-recept {
     width: 95%;
