@@ -39,9 +39,6 @@ h1 {
     font-size: large;
 }
 
-
-
-
 .Recept-bakgrund-klass {
     border-radius: 35px;
     margin-top: 2.5%;
@@ -69,16 +66,21 @@ h1 {
 .steg-2-placering, .steg-1-2-3{
     grid-column: 2/3;
     grid-row: 1/3;
-
 } 
+
 .steg-2-placering{
     margin-top: 55%;
-    min-height: auto;
     height: fit-content;
+    /* min-height: 25%; */
+    /* width: fit-content; */
     background-color: #ffa107;
     border-radius: 35px;
     font-size: larger;
 }
+
+/* .align-content{
+    align-self: auto;
+} */
 
 .img-recept {
     width: 95%;
@@ -92,10 +94,22 @@ h1 {
     margin-left: 7.5%;
 }
 
-.img-logo-socialmedia {
+/* .img-logo-socialmedia {
+    height: 50%;
+    
+} */
+
+.yt-tiktok-klass
+{
     height: 40%;
     grid-column: 3/3;
     grid-row: 1/3;
+}
+#tiktok-placering{
+    height: 40%;
+    grid-column: 3/3;
+    grid-row: 1/3;
+    margin-top: 65%;
 }
 
 
