@@ -4,7 +4,7 @@ header {
     grid-template-columns: 1fr 10fr;
     font-size: xx-large;
     text-align: center;
-    background-image: url('./img/Bakgrund\ rubrik\ recept.png');
+    background-image: url('./img/Bakgrund-cool-header.jpg');
     background-size: cover;
 }
 
@@ -135,7 +135,7 @@ h1 {
 }
 
 .x-instagram-klass{
-    height: 45.5%;
+    height: 47.5%;
     border-radius: 25%;
     margin-left: 3.5%;
     /* display: flex; */
