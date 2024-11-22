@@ -69,6 +69,19 @@ h1 {
     border-radius: 35px;
     /* margin-left: 2.5%; */
     font-size: larger;
+   
+}
+.steg-4-placering, .steg-3-4{
+    grid-column: 2/3;
+    grid-row: 2/2;
+}
+.steg-4-placering{
+    margin-top: 55%;
+    background-color: #ffa107;
+    height: fit-content;
+    border-radius: 35px;
+    /* margin-left: 2.5%; */
+    font-size: larger;
 }
 
 .steg-2-placering, .steg-1-2{
