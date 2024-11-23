@@ -135,7 +135,7 @@ h1 {
 }
 
 .x-instagram-klass{
-    height: 47.5%;
+    height: 45%;
     border-radius: 25%;
     margin-left: 3.5%;
     /* display: flex; */
@@ -144,4 +144,15 @@ h1 {
     grid-row: 2/3;
 }
 
+#instagram-placering{
+    height: 50%;
+    /* border-radius: 25%; */
+    /* margin-left: 3.5%; */
+    margin-top: auto ;
+    margin-bottom: 25%;
+    /* display: flex; */
+    /* justify-content: center; */
+    grid-column: 3/3;
+    grid-row: 2/3;
+}
 
