@@ -21,6 +21,16 @@ h1 {
     color: white
 }
 
+h3{
+    font-size: x-large;
+}
+
+footer{
+    text-align: center;
+    background-color: lightgray;
+}
+
+
 .Wok-Victor-mono {
     font-family: "Victor Mono", monospace;
     font-optical-sizing: auto;
