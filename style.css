@@ -5,6 +5,8 @@ header {
     font-size: xx-large;
     text-align: center;
     background-image: url('./img/Bakgrund-cool-header.jpg');
+    border-radius: 25px;
+    border: solid white 1px;
     background-size: cover;
 }
 
@@ -13,6 +15,9 @@ main {
     grid-template-rows: 1fr;
     grid-template-columns: 3fr 5fr 2fr;
     gap: 20px;
+    background-color: beige;
+    border-radius: 25px;
+
 }
 
 h1 {
@@ -110,13 +115,50 @@ footer{
     font-size: larger;
 }
 
-/* .align-content{
-    align-self: auto;
-} */
-
 .img-recept {
     width: 95%;
     border-radius: 7.5%;
+
+}
+
+#ingredienser-lista{
+    border:  solid black;
+}
+
+.butiker{
+    background-color: #F2D2BD;
+    /* text-align: center; */
+    grid-row: 3/3;
+    grid-column: 1/4;
+    border-radius: 25px;
+    margin-bottom: auto;
+
+}
+
+#ica-id{
+    height: 25%;
+    /* display: flex; */
+    align-items: center;
+}
+
+#willys-id{
+    height: 20%;
+    margin-bottom: 10%;
+    max-width: fit-content;
+    width: 20% ;
+    /* display: flex; */
+    align-items: center;
+}
+
+.butik-text-header{
+    text-align: center;
+    font-size: 75px;
+}
+
+#coop-id{
+    /* width: fit-content; */
+    align-items: center;
+    width: 40%;
 
 }
 
@@ -125,11 +167,6 @@ footer{
     margin-top: 7.5%;
     margin-left: 7.5%;
 }
-
-/* .img-logo-socialmedia {
-    height: 50%;
-    
-} */
 
 .yt-tiktok-klass
 {
@@ -156,13 +193,13 @@ footer{
 
 #instagram-placering{
     height: 50%;
-    /* border-radius: 25%; */
-    /* margin-left: 3.5%; */
+ 
     margin-top: auto ;
     margin-bottom: 25%;
-    /* display: flex; */
-    /* justify-content: center; */
     grid-column: 3/3;
     grid-row: 2/3;
 }
 
+footer{
+    border-radius: 25px;
+}
