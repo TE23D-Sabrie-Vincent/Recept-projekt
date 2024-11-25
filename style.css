@@ -132,7 +132,6 @@ footer{
     grid-column: 1/4;
     border-radius: 25px;
     margin-bottom: auto;
-
 }
 
 #ica-id{
@@ -148,6 +147,8 @@ footer{
     width: 20% ;
     /* display: flex; */
     align-items: center;
+    /* margin-bottom: 20%; */
+
 }
 
 .butik-text-header{
@@ -159,6 +160,7 @@ footer{
     /* width: fit-content; */
     align-items: center;
     width: 40%;
+    /* margin-bottom: 20%; */
 
 }
 
@@ -193,7 +195,6 @@ footer{
 
 #instagram-placering{
     height: 50%;
- 
     margin-top: auto ;
     margin-bottom: 25%;
     grid-column: 3/3;
