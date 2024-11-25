@@ -74,7 +74,6 @@ footer{
     height: fit-content;
     border-radius: 35px;
     margin-top: 2.5%;
-    /* margin-left: 2.5%; */
     font-size: larger;
 }
 
@@ -82,7 +81,6 @@ footer{
     background-color: #ffa107;
     height: fit-content;
     border-radius: 35px;
-    /* margin-left: 2.5%; */
     font-size: larger;
    
 }
@@ -95,7 +93,6 @@ footer{
     background-color: #ffa107;
     height: fit-content;
     border-radius: 35px;
-    /* margin-left: 2.5%; */
     font-size: larger;
 }
 
@@ -108,8 +105,6 @@ footer{
     margin-top: 55%;
     align-content: space-evenly;
     height: fit-content;
-    /* min-height: 25%; */
-    /* width: fit-content; */
     background-color: #ffa107;
     border-radius: 35px;
     font-size: larger;
@@ -127,7 +122,6 @@ footer{
 
 .butiker{
     background-color: #F2D2BD;
-    /* text-align: center; */
     grid-row: 3/3;
     grid-column: 1/4;
     border-radius: 25px;
@@ -136,7 +130,6 @@ footer{
 
 #ica-id{
     height: 25%;
-    /* display: flex; */
     align-items: center;
 }
 
@@ -145,9 +138,7 @@ footer{
     margin-bottom: 10%;
     max-width: fit-content;
     width: 20% ;
-    /* display: flex; */
     align-items: center;
-    /* margin-bottom: 20%; */
 
 }
 
@@ -157,10 +148,8 @@ footer{
 }
 
 #coop-id{
-    /* width: fit-content; */
     align-items: center;
     width: 40%;
-    /* margin-bottom: 20%; */
 
 }
 
@@ -187,8 +176,6 @@ footer{
     height: 45%;
     border-radius: 25%;
     margin-left: 3.5%;
-    /* display: flex; */
-    /* justify-content: center; */
     grid-column: 3/3;
     grid-row: 2/3;
 }
